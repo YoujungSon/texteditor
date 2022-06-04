@@ -1,4 +1,4 @@
-hook은 리액트 컴포넌트 최상위에서만 쓸 수 있다.
+React hook은 리액트 컴포넌트 최상위에서만 쓸 수 있다.
 
 1)component.js를 만든다.
 
@@ -23,3 +23,11 @@ hook은 리액트 컴포넌트 최상위에서만 쓸 수 있다.
 13)textArea애 참조할 수 있는 텍스트 값 text를 준다.
 
 14)button에는 변경할 수 있는 값인 setText를 준다.
+
+Custom hook
+
+1.함수명은 use로 시작해야 한다. 2.컴포넌트의 최상위(리액트 함수)에서만 호출할 수 있다.
+
+3.Custom hook에서 Custom hook를 또 호출할 수 있다.
+
+4.return을 꼭 해줘야 한다.
