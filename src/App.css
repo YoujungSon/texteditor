@@ -1,0 +1,12 @@
+.wrap {
+  display: flex;
+}
+.box {
+  width: 50vw;
+  min-height: 50vh;
+  border: 1px solid #000;
+}
+pre {
+  font-size: 30px;
+  font-weight: bold;
+}
